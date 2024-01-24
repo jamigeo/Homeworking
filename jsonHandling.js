@@ -8,7 +8,7 @@ function getJSONByAPI() {
         console.log(profile);
         console.log("userId: " + (profile.userId + 5));
         console.log("id: " + (profile.id + 6));
-        console.log("title: " + "Quod erat demonstandum");
+        console.log("title: " + "Quod erat demonstrandum...");
         console.log("completed: " + true);
         for (var key in profile) {
             if (profile.hasOwnProperty(key)) {
